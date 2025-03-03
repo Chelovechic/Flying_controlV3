@@ -2005,8 +2005,8 @@ local my_5x5_letter_white = {}
 local my_5x5_letter_red = {}
 for k, v in pairs(my_5x5_letter) do
     my_5x5_letter[k] = BakeBitMap(v, 0x99FF0000)
-    my_5x5_letter_white[k] = BakeBitMap(v, 0xFFFFFFFF)
-    my_5x5_letter_red[k] = BakeBitMap(v, 0xFF1111FF)
+    my_5x5_letter_white[k] = BakeBitMap(v, 0x99FF0000)
+    my_5x5_letter_red[k] = BakeBitMap(v, 0x99FF0000)
 end
 
 local my_4x5_number_white = {}
